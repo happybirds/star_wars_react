@@ -1,5 +1,5 @@
-# star-db
-The project is a React app to display information about Star Wars using the swapi.dev API
+# star-war-react
+Using swapi.dev API to display information about Star Wars 
 
 ## Technologies
 * React Redux & Hooks
