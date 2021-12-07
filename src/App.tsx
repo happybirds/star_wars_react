@@ -21,6 +21,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { Main, AppBar, DrawerHeader } from "./utils/Appbar";
+import mainImg from "./assets/main.jpeg"
 
 const drawerWidth = 240;
 
@@ -124,7 +125,7 @@ function Home() {
         <CardActionArea>
           <CardMedia
             component="img"
-            image="/main.jpeg"
+            image={ mainImg }
             alt="green iguana"
             height="400px"
           />

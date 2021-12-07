@@ -42,7 +42,7 @@ const Starwars = () => {
 
   useEffect(() => {
     dispatch(getData(url));
-  }, [url]);
+  }, [url,dispatch]);
 
   if (isLoading) {
     return <h1>Loading...</h1>;
