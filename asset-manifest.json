@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/happybirds/star_wars_react/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/happybirds/star_wars_react/static/js/main.b80d6a24.chunk.js",
-    "main.js.map": "/happybirds/star_wars_react/static/js/main.b80d6a24.chunk.js.map",
-    "runtime-main.js": "/happybirds/star_wars_react/static/js/runtime-main.3c8902de.js",
-    "runtime-main.js.map": "/happybirds/star_wars_react/static/js/runtime-main.3c8902de.js.map",
+    "main.js": "/happybirds/star_wars_react/static/js/main.d942cbc7.chunk.js",
+    "main.js.map": "/happybirds/star_wars_react/static/js/main.d942cbc7.chunk.js.map",
+    "runtime-main.js": "/happybirds/star_wars_react/static/js/runtime-main.19abb0e2.js",
+    "runtime-main.js.map": "/happybirds/star_wars_react/static/js/runtime-main.19abb0e2.js.map",
     "static/js/2.fe51fd43.chunk.js": "/happybirds/star_wars_react/static/js/2.fe51fd43.chunk.js",
     "static/js/2.fe51fd43.chunk.js.map": "/happybirds/star_wars_react/static/js/2.fe51fd43.chunk.js.map",
     "static/js/3.f094d3e8.chunk.js": "/happybirds/star_wars_react/static/js/3.f094d3e8.chunk.js",
     "static/js/3.f094d3e8.chunk.js.map": "/happybirds/star_wars_react/static/js/3.f094d3e8.chunk.js.map",
-    "static/js/4.4018f44b.chunk.js": "/happybirds/star_wars_react/static/js/4.4018f44b.chunk.js",
-    "static/js/4.4018f44b.chunk.js.map": "/happybirds/star_wars_react/static/js/4.4018f44b.chunk.js.map",
+    "static/js/4.fd73e5e1.chunk.js": "/happybirds/star_wars_react/static/js/4.fd73e5e1.chunk.js",
+    "static/js/4.fd73e5e1.chunk.js.map": "/happybirds/star_wars_react/static/js/4.fd73e5e1.chunk.js.map",
     "index.html": "/happybirds/star_wars_react/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/happybirds/star_wars_react/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.fe51fd43.chunk.js.LICENSE.txt": "/happybirds/star_wars_react/static/js/2.fe51fd43.chunk.js.LICENSE.txt"
+    "static/js/2.fe51fd43.chunk.js.LICENSE.txt": "/happybirds/star_wars_react/static/js/2.fe51fd43.chunk.js.LICENSE.txt",
+    "static/media/main.b3cc1fab.jpeg": "/happybirds/star_wars_react/static/media/main.b3cc1fab.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c8902de.js",
+    "static/js/runtime-main.19abb0e2.js",
     "static/js/2.fe51fd43.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.b80d6a24.chunk.js"
+    "static/js/main.d942cbc7.chunk.js"
   ]
 }
