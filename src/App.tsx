@@ -1,29 +1,43 @@
-import * as React from "react"
-import { Routes, Route, Link } from "react-router-dom"
-import {useTheme,Box,Drawer,Toolbar,CssBaseline,List,Typography,
-  Divider,IconButton,ListItem,ListItemText} from "@mui/material"
-import MenuIcon from "@mui/icons-material/Menu"
-import ChevronLeftIcon from "@mui/icons-material/ChevronLeft"
-import ChevronRightIcon from "@mui/icons-material/ChevronRight"
-import { Main, AppBar, DrawerHeader } from "./utils/Appbar"
+import * as React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import {
+  useTheme,
+  Box,
+  Drawer,
+  Toolbar,
+  CssBaseline,
+  List,
+  Typography,
+  Divider,
+  IconButton,
+  ListItem,
+  ListItemText,
+  Card,
+  CardActionArea,
+  CardMedia,
+  CardContent,
+} from "@mui/material";
+import MenuIcon from "@mui/icons-material/Menu";
+import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
+import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import { Main, AppBar, DrawerHeader } from "./utils/Appbar";
 
-const drawerWidth = 240
+const drawerWidth = 240;
 
 //lazy loading
-const Starwars = React.lazy(() => import("./components/Starwars"))
-
+const Starwars = React.lazy(() => import("./components/Starwars"));
 
 export default function App() {
-  const theme = useTheme()
-  const [open, setOpen] = React.useState(false)
+  const theme = useTheme();
+  const [open, setOpen] = React.useState(false);
 
   const handleDrawerOpen = () => {
-    setOpen(true)
-  }
+    setOpen(true);
+  };
 
   const handleDrawerClose = () => {
-    setOpen(false)
-  }
+    setOpen(false);
+  };
 
   return (
     <Box sx={{ display: "flex" }}>
@@ -85,7 +99,7 @@ export default function App() {
         <Divider />
 
         <List>
-        <ListItem button component={Link} to="/">
+          <ListItem button component={Link} to="/">
             <ListItemText primary={"Home"} />
           </ListItem>
           <ListItem button component={Link} to="/starwars/person">
@@ -100,16 +114,31 @@ export default function App() {
         </List>
       </Drawer>
     </Box>
-  )
+  );
 }
-
 
 function Home() {
   return (
     <div>
-      <h2>react-redux</h2>
+      <Card>
+        <CardActionArea>
+          <CardMedia
+            component="img"
+            image="/main.jpeg"
+            alt="green iguana"
+            height="400px"
+          />
+          <CardContent>
+            <Typography variant="body2" color="text.secondary">
+              Star Wars is an American epic space opera multimedia franchise
+              created by George Lucas, which began with the eponymous 1977 film
+              and quickly became a worldwide pop-culture phenomenon.
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
     </div>
-  )
+  );
 }
 
 function NoMatch() {
@@ -120,5 +149,5 @@ function NoMatch() {
         <Link to="/">Go to the home page</Link>
       </p>
     </div>
-  )
+  );
 }

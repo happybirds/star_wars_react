@@ -52,10 +52,11 @@ const Starwars = () => {
   }
   return (
     <>
+      {page}/ {Math.ceil(count / 10)}
       {page !== 1 && (
         <IconButton
           aria-label="delete"
-          size="small"
+          size="medium"
           onClick={() => setPage(page - 1)}
         >
           <NavigateBefore fontSize="inherit" color="primary" />
@@ -64,7 +65,7 @@ const Starwars = () => {
       {page < count / 10 && (
         <IconButton
           aria-label="delete"
-          size="small"
+          size="medium"
           onClick={() => setPage(page + 1)}
         >
           <NavigateNext fontSize="inherit" color="primary" />
