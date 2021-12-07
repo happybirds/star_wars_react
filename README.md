@@ -1,5 +1,6 @@
 # star-war-react
-Using swapi.dev API to display information about Star Wars 
+* Using swapi.dev API to display information about Star Wars 
+
 <img width="348" alt="Screen Shot 2021-12-06 at 11 21 17 pm" src="https://user-images.githubusercontent.com/13622089/144960375-eebbd0a6-94c3-4f1f-821d-b82ffcb7a06c.png">
 
 
